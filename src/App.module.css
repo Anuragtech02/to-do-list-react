@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh !important;
+  margin: auto;
+  width: fit-content;
+  align-items: center;
+}
+
+.TextField {
+  background-color: white !important;
+  border-radius: 5px !important;
+  width: 300px;
+}

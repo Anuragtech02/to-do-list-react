@@ -1,0 +1,46 @@
+.container {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  transition: all 0.3s ease;
+}
+.cardContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+  padding: 0 !important;
+}
+.item {
+  padding: 20px !important;
+  flex: 1;
+  transition: all 0.3s ease;
+}
+
+.card {
+  width: 500px;
+}
+
+.containerFall {
+  transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0 !important;
+}
+.displayNone {
+  display: none;
+}
+.completed {
+  text-decoration: line-through;
+}
+
+.completedOpacity {
+  background-color: rgb(0, 255, 0);
+  color: white !important;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 400px;
+  }
+}
